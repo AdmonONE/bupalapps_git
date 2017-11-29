@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?baw13w');
+  src:  url('fonts/icomoon.eot?baw13w#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?baw13w') format('truetype'),
+    url('fonts/icomoon.woff?baw13w') format('woff'),
+    url('fonts/icomoon.svg?baw13w#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu_admin {
+  width: 100%;
+}
+
+.menu_admin nav {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #024959;
+}
+
+.menu_bar {
+  display: none;
+}
+
+.menu_admin nav ul {
+  overflow: hidden;
+  list-style: none;
+}
+
+.menu_admin nav ul li {
+  float: left;
+}
+
+.menu_admin nav ul li a {
+  color: #fff;
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.menu_admin nav ul li span {
+  margin-right: 10px;
+}
+
+.menu_admin nav ul li a:hover {
+  background: #037E8C;
+}
+
+@media screen and (max-width: 800px) {
+  .menu_admin nav {
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    position: fixed;
+  }
+
+  .menu_admin nav ul li {
+    display: block;
+    float: none;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+  }
+}
