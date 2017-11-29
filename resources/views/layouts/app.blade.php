@@ -303,17 +303,18 @@
         <div class="row" style="text-align: center; background-color: white; font-size: 16px; font-weight: bold; padding: 5px;">
 
                 <div class="col-md-12">
-                    @if(Request::url() == 'http://192.168.100.31:8080/bienestar.palmira.unal.edu.co/regIndex' or Request::url() == 'https://mytiendapp.000webhostapp.com/regIndex')
+                    @if(Request::url() == 'http://192.168.100.31:8080/bienestar.palmira.unal.edu.co/regIndex' or Request::url() == 'https://mytiendapp.000webhostapp.com/regIndex' or Request::url() == 'http://168.176.180.243/bupalapps_git/regIndex')
                     <a class="" href="{{ url('/regIndex') }}">Sistema de Bienestar Universitario - UNAL Palmira</a>
                     |
                     <a class="" href="{{ url('/viewreg') }}">Ver Oficios</a>
-                    @elseif(Request::url() == 'http://192.168.100.31:8080/bienestar.palmira.unal.edu.co/viewreg' or Request::url() == 'http://168.176.180.243:8080/bupalweb/home')
+                    @elseif(Request::url() == 'http://192.168.100.31:8080/bienestar.palmira.unal.edu.co/viewreg' or Request::url() == 'http://168.176.180.243:8080/bupalweb/home' or Request::url() == 'http://168.176.180.243/bupalapps_git/viewreg')
                     <a class="" href="{{ url('/regIndex') }}">Menú Principal</a>
                     |
                     <a class="" href="{{ url('/viewreg/create?tipo=60') }}">Nuevo Oficio P.DBU</a>
-                    @elseif(Request::url() == 'http://192.168.100.31:8080/bupalweb/home/create' or Request::url() == 'http://168.176.180.243:8080/bupalweb/home/create')
-                    <a class="navbar-brand" href="{{ url('/home1') }}">Menú Principal</a>
-                    <a class="navbar-brand" href="{{ url('/home') }}">Listar Registros</a>
+                    @elseif(Request::url() == 'http://192.168.100.31:8080/bienestar.palmira.unal.edu.co/viewreg/create' or Request::url() == 'http://168.176.180.243:8080/bupalweb/home/create' or Request::url() == 'http://168.176.180.243/bupalapps_git/viewreg/create')
+                    <a class="" href="{{ url('/regIndex') }}">Menú Principal</a>
+                    |
+                    <a class="" href="{{ url('/viewreg') }}">Listar Registros</a>
                     @endif
                 </div>
             </div>

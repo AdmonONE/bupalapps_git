@@ -184,7 +184,7 @@ return [
         Collective\Html\HtmlServiceProvider::class,
 
         //maps
-        GeneaLabs\Phpgmaps\PhpgmapsServiceProvider::class,
+        //GeneaLabs\Phpgmaps\PhpgmapsServiceProvider::class,
 
     ],
 
@@ -243,7 +243,7 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
 
         //maps
-        'Gmaps' => GeneaLabs\Phpgmaps\Facades\PhpgmapsFacade::class,
+        //'Gmaps' => GeneaLabs\Phpgmaps\Facades\PhpgmapsFacade::class,
 
     ],
 

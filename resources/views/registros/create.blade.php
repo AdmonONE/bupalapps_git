@@ -26,9 +26,11 @@
 
 
 <?php
-	$registronuevo = DB::table('registros')->max('numero');
+	//$registronuevo = DB::table('registros')->max('numero');
 
-	$cuenta = DB::table('regareas')->where('area', 'Salud Estudiantil')->count();
+
+
+	//$cuenta = DB::table('regareas')->where('area', 'Salud Estudiantil')->count();
 ?>
 
 
@@ -135,18 +137,25 @@ function now($format, $language = "es") {
 <form class="" action="../viewreg" method="post">
 
 	@if($tipo == '10')
+		<?php
+			$cuenta = DB::table('regareas')->where('area', 'Dirección')->count();
+		?>
+		
 		<input class="form-control" type="text" name="numero" value="P.DBU-<?php echo ($cuenta+1)?>" placeholder="Numero de Oficio" style="visibility:hidden">
 	@endif
 
 	@if($tipo == '20')
-		<input class="form-control" type="text" name="numero" value="P.SAI-<?php echo ($registronuevo+1)?>" placeholder="Numero de Oficio" style="visibility:hidden">
+		<?php
+			$cuenta = DB::table('regareas')->where('area', 'Actividad Fisica y Deporte')->count();
+		?>
+		<input class="form-control" type="text" name="numero" value="P.SAFD-<?php echo ($cuenta+1)?>" placeholder="Numero de Oficio" style="visibility:hidden">
 	@endif
 
 	
-	<!--<input class="form-control" type="text" name="numero" value="<?php echo ($registronuevo+1)?>" placeholder="Numero de Oficio" style="visibility:hidden">-->
+	<!--<input class="form-control" type="text" name="numero" value="<?php// echo ($registronuevo+1)?>" placeholder="Numero de Oficio" style="visibility:hidden">-->
 	<h5>{{ ($errors->has('numero')) ? $errors->first('numero') : '' }} </h5>
 
-	Numero de Oficio: <input type="text" name="date" class="form-control" value="<?php echo ($registronuevo+1)?>" disabled><br>
+	Numero de Oficio: <input type="text" name="date" class="form-control" value="<?php echo ($cuenta+1)?>" disabled><br>
 
 	Fecha:<input class="tcal form-control" type="text" name="fecha" value="<?php echo $fechaAct;?>" placeholder="Fecha" autocomplete="off">
 	<h5>{{ ($errors->has('fecha')) ? $errors->first('fecha') : '' }} </h5>
