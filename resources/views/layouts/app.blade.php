@@ -300,23 +300,36 @@
             </div>
             
         </div>
-        <div class="row" style="text-align: center; background-color: white; font-size: 16px; font-weight: bold; padding: 5px;">
+        <div class="row barTitulitos" style="text-align: center; background-color: white; font-size: 16px; font-weight: bold; padding: 5px;">
 
                 <div class="col-md-12">
                     @if(Request::segment(1)=='regIndex')
-                    <a class="" href="{{ url('/regIndex') }}">Sistema de Bienestar Universitario - UNAL Palmira</a>
-                    |
-                    <a class="" href="{{ url('/viewreg') }}">Ver Oficios</a>
+                        <a class="" href="{{ url('/regIndex') }}">Sistema de Bienestar Universitario - UNAL Palmira</a>
+                        |
+                        <a class="" href="{{ url('/viewreg') }}">Ver Oficios</a>
                     @elseif(Request::segment(1)=='viewreg')
-                    <a class="" href="{{ url('/regIndex') }}">Menú Principal</a>
-                    |
-                    <a class="" href="{{ url('/viewreg/create?tipo=60') }}">Nuevo Oficio P.DBU</a>
-                    @elseif(Request::url() == 'http://192.168.100.31:8080/bienestar.palmira.unal.edu.co/viewreg/create' or Request::url() == 'http://168.176.180.243:8080/bupalweb/home/create' or Request::url() == 'http://168.176.180.243/bupalapps_git/viewreg/create')
-                    <a class="" href="{{ url('/regIndex') }}">Menú Principal</a>
-                    |
-                    <a class="" href="{{ url('/viewreg') }}">Listar Registros</a>
+                        @if(Request::segment(2)=='create')
+                            <a class="" href="{{ url('/regIndex') }}">Menú Principal</a>
+                            |
+                            <a class="" href="{{ url('/viewreg') }}">Listar Registros</a>
+                        @else
+                        <a class="" href="{{ url('/regIndex') }}">Menú Principal</a>
+                        |
+                        <a class="" href="{{ url('/viewreg/create?tipo=60') }}">Nuevo Oficio P.DBU</a>
+                        @endif
+
                     @endif
                 </div>
+                @if(Request::segment(1)=='' or Request::segment(1)=='login')
+                        <style type="text/css">
+                            .barTitulitos{
+                                visibility: hidden;
+                                width: 0px;
+                                height: 0px;
+
+                            }
+                        </style>
+                @endif
             </div>
 
 
