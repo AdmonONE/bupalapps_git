@@ -21,10 +21,9 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                             
                                 <h3 class="col-md-3" class="" style="width: 100%;  color: blue;">
-                                    {{ Auth::user()->area }}
-                                    {{ Auth::user()->name }} - 
-                                    @if (Auth::user()->area == 60) Salud Estudiantil 
-                                    @endif<span class="caret"></span></h3>
+                                    <!--{{ Auth::user()->area }}-->
+                                    {{ Auth::user()->name }}
+                                    <span class="caret"></span></h3>
                                 <!--<img src="{{ Auth::user()->avatar }}" alt="">-->
                             </a>
 
@@ -59,7 +58,7 @@
         </div>
         <!--end user image section-->
 
-        <section class="main" style="margin-top: 0%;">
+        <section class="main" style="margin-top: 0%; font-size: 10px;">
             <ul class="ch-grid">
             @if(Auth::user()->area == '10')
                 
@@ -71,7 +70,7 @@
                                         <div class="ch-info-front ch-img-1"></div>
                                         <div class="ch-info-back">
                                             <h3>Registrar Oficio P.SAI</h3>
-                                            <p>Área de</p>
+                                            <br>
                                             <p>Acompañamiento Integral</p>
                                         </div>  
                                     </div>
@@ -88,7 +87,7 @@
                                     <div class="ch-info-front ch-img-2"></div>
                                     <div class="ch-info-back">
                                         <h3>Registrar Oficio P.SAFD</h3>
-                                        <p>Área de</p>
+                                        <br>
                                         <p>Actividad Física y Deportes</p>
                                     </div>
                                 </div>
@@ -105,7 +104,7 @@
                                     <div class="ch-info-front ch-img-3"></div>
                                     <div class="ch-info-back">
                                         <h3>Registrar Oficio P.SCUL</h3>
-                                        <p>Área de</p>
+                                        <br>
                                         <p>Cultura</p>
                                     </div>
                                 </div>
@@ -122,7 +121,7 @@
                                     <div class="ch-info-front ch-img-4"></div>
                                     <div class="ch-info-back">
                                         <h3>Registrar Oficio P.SGFS</h3>
-                                        <p>Área de</p>
+                                        <br>
                                         <p>Gestión y Fomento Socioeconómico</p>
                                     </div>
                                 </div>
@@ -139,7 +138,7 @@
                                     <div class="ch-info-front ch-img-5"></div>
                                     <div class="ch-info-back">
                                         <h3>Registrar Oficio P.SUS<</h3>
-                                        <p>Área de</p>
+                                        <br>
                                         <p>Salud Estudiantil</p>
                                     </div>
                                 </div>
@@ -165,7 +164,7 @@
                                         <div class="ch-info-front ch-img-1"></div>
                                         <div class="ch-info-back">
                                             <h3>Registrar Oficio P.SAI</h3>
-                                            <p>Área de</p>
+                                            <br>
                                             <p>Acompañamiento Integral</p>
                                         </div>  
                                     </div>
@@ -193,7 +192,7 @@
                                     <div class="ch-info-front ch-img-2"></div>
                                     <div class="ch-info-back">
                                         <h3>Registrar Oficio P.SAFD</h3>
-                                        <p>Área de</p>
+                                        <br>
                                         <p>Actividad Física y Deportes</p>
                                     </div>
                                 </div>
@@ -220,7 +219,7 @@
                                     <div class="ch-info-front ch-img-3"></div>
                                     <div class="ch-info-back">
                                         <h3>Registrar Oficio P.SCUL</h3>
-                                        <p>Área de</p>
+                                        <br>
                                         <p>Cultura</p>
                                     </div>
                                 </div>
@@ -245,7 +244,7 @@
                                     <div class="ch-info-front ch-img-4"></div>
                                     <div class="ch-info-back">
                                         <h3>Registrar Oficio P.SGFS</h3>
-                                        <p>Área de</p>
+                                        <br>
                                         <p>Gestión y Fomento Socioeconómico</p>
                                     </div>
                                 </div>
@@ -269,8 +268,8 @@
                                 <div class="ch-info">
                                     <div class="ch-info-front ch-img-5"></div>
                                     <div class="ch-info-back">
-                                        <h3>Registrar Oficio P.SUS<</h3>
-                                        <p>Área de</p>
+                                        <h3>Registrar Oficio P.SUS</h3>
+                                        <br>
                                         <p>Salud Estudiantil</p>
                                     </div>
                                 </div>
@@ -293,8 +292,8 @@
                                     <div class="ch-info-front ch-img-6"></div>
                                     <div class="ch-info-back">
                                         <h3>Registrar Oficio P.DBU</h3>
-                                        <p>Dirección de</p>
-                                        <p>Bienestar Universitario</p>
+                                        <br>
+                                        <p>Dirección de Bienestar Universitario</p>
                                     </div>
                                 </div>
                             </div>
