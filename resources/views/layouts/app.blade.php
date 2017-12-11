@@ -303,11 +303,11 @@
         <div class="row" style="text-align: center; background-color: white; font-size: 16px; font-weight: bold; padding: 5px;">
 
                 <div class="col-md-12">
-                    @if(Request::url() == 'http://192.168.100.31:8080/bienestar.palmira.unal.edu.co/regIndex' or Request::url() == 'https://mytiendapp.000webhostapp.com/regIndex' or Request::url() == 'http://168.176.180.243/bupalapps_git/regIndex')
+                    @if(Request::segment(1)=='regIndex')
                     <a class="" href="{{ url('/regIndex') }}">Sistema de Bienestar Universitario - UNAL Palmira</a>
                     |
                     <a class="" href="{{ url('/viewreg') }}">Ver Oficios</a>
-                    @elseif(Request::url() == 'http://192.168.100.31:8080/bienestar.palmira.unal.edu.co/viewreg' or Request::url() == 'http://168.176.180.243:8080/bupalweb/home' or Request::url() == 'http://168.176.180.243/bupalapps_git/viewreg')
+                    @elseif(Request::segment(1)=='viewreg')
                     <a class="" href="{{ url('/regIndex') }}">Menú Principal</a>
                     |
                     <a class="" href="{{ url('/viewreg/create?tipo=60') }}">Nuevo Oficio P.DBU</a>
