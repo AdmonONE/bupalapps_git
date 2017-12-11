@@ -320,7 +320,7 @@
 
                     @endif
                 </div>
-                @if(Request::segment(1)=='' or Request::segment(1)=='login')
+                @if(Request::segment(1)=='' or Request::segment(1)=='login' or Request::segment(1)=='home')
                         <style type="text/css">
                             .barTitulitos{
                                 visibility: hidden;

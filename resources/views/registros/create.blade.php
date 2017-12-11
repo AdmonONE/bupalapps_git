@@ -146,9 +146,37 @@ function now($format, $language = "es") {
 
 	@if($tipo == '20')
 		<?php
-			$cuenta = DB::table('regareas')->where('area', 'Actividad Fisica y Deporte')->count();
+			$cuenta = DB::table('regareas')->where('area', 'Acompañamiento Integral')->count();
+		?>
+		<input class="form-control" type="text" name="numero" value="P.SAI-<?php echo ($cuenta+1)?>" placeholder="Numero de Oficio" style="visibility:hidden">
+	@endif
+
+	@if($tipo == '30')
+		<?php
+			$cuenta = DB::table('regareas')->where('area', 'Actividad Física y Deporte')->count();
 		?>
 		<input class="form-control" type="text" name="numero" value="P.SAFD-<?php echo ($cuenta+1)?>" placeholder="Numero de Oficio" style="visibility:hidden">
+	@endif
+
+	@if($tipo == '40')
+		<?php
+			$cuenta = DB::table('regareas')->where('area', 'Cultura')->count();
+		?>
+		<input class="form-control" type="text" name="numero" value="P.SCUL-<?php echo ($cuenta+1)?>" placeholder="Numero de Oficio" style="visibility:hidden">
+	@endif
+
+	@if($tipo == '50')
+		<?php
+			$cuenta = DB::table('regareas')->where('area', 'Gestión y Fomento Socioeconómico')->count();
+		?>
+		<input class="form-control" type="text" name="numero" value="P.SGFS-<?php echo ($cuenta+1)?>" placeholder="Numero de Oficio" style="visibility:hidden">
+	@endif
+
+	@if($tipo == '60')
+		<?php
+			$cuenta = DB::table('regareas')->where('area', 'Salud Estudiantil')->count();
+		?>
+		<input class="form-control" type="text" name="numero" value="P.SUS-<?php echo ($cuenta+1)?>" placeholder="Numero de Oficio" style="visibility:hidden">
 	@endif
 
 	
@@ -159,6 +187,8 @@ function now($format, $language = "es") {
 
 	Fecha:<input class="tcal form-control" type="text" name="fecha" value="<?php echo $fechaAct;?>" placeholder="Fecha" autocomplete="off">
 	<h5>{{ ($errors->has('fecha')) ? $errors->first('fecha') : '' }} </h5>
+
+	<!--Área:<input class="form-control" type="text" name="" value="{{ Auth::user()->area }} " disabled><br>-->
 
 	Área:<input class="form-control" type="text" name="" value="{{ Auth::user()->area }} " disabled><br>
 
@@ -171,25 +201,40 @@ function now($format, $language = "es") {
 	<input class="form-control" type="text" name="usuario" value="{{ Auth::user()->name }}" placeholder="" style="visibility:hidden">
 	
 	<input type="hidden" name="_token" value="{{ csrf_token() }}">
-	
+
+<?php
+$array_opciones=array("opcion1"=>"valor_opcion1","opcion2"=>"valor_opcion2"); 
+
+echo '<select name=\"nose\">\n'; 
+foreach ($array_opciones as $indice=>$valor){ 
+   if ($row['valor'] == $valor){ 
+      echo "<option value=\"".$valor."" selected>".$indice."</option>n"";      
+   } else { 
+      echo "<option value="".$valor."">".$indice."</option>n"; 
+   } 
+} 
+echo "</select>n";
+?>	
 
 
 	<input class="form-control" type="text" name="area" value="<?php echo "$tipo" ?>" placeholder="Area" style="visibility:hidden">
 	<h5>{{ ($errors->has('area')) ? $errors->first('area') : '' }} </h5>
 
-	 <!-- <select name="area" class=" form-control">
+	 <select name="area" class=" form-control" value="<?php echo "$tipo" ?>">
 	    <option value="10">Dirección</option>
 	    <option value="20">Acompañamiento Integral</option>
 	    <option value="30">Actividad Fisica y Deporte</option>
 	    <option value="40">Cultura</option>
 	    <option value="50">Gestión y Fomento Socioeconómico</option>
 	    <option value="60">Salud Estudiantil</option>
-	  </select>-->
+	  </select>
 
 	  	<center>
 		<input class="btn btn-primary" type="submit" name="name" value="Agregar" style="width: 40%; margin-right: 10%">
 		<a href="../viewreg" class="btn btn-warning" style="width: 40%;">Regresar</a>
 		</center>
+
+
 
 
 </form>
