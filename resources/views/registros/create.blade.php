@@ -202,19 +202,7 @@ function now($format, $language = "es") {
 	
 	<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
-<?php
-$array_opciones=array("opcion1"=>"valor_opcion1","opcion2"=>"valor_opcion2"); 
 
-echo '<select name=\"nose\">\n'; 
-foreach ($array_opciones as $indice=>$valor){ 
-   if ($row['valor'] == $valor){ 
-      echo "<option value=\"".$valor."" selected>".$indice."</option>n"";      
-   } else { 
-      echo "<option value="".$valor."">".$indice."</option>n"; 
-   } 
-} 
-echo "</select>n";
-?>	
 
 
 	<input class="form-control" type="text" name="area" value="<?php echo "$tipo" ?>" placeholder="Area" style="visibility:hidden">

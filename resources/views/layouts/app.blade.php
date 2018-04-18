@@ -354,8 +354,8 @@
   <br>
 
 
-  <a href="http://192.168.100.31:8080/bienestar.palmira.unal.edu.co/calendario" data-toggle="modal" data-target="#myModal">Programación</a>
-  <a href="http://mailchi.mp/f2a3383f5ee6/prototipo-mide-color-y-temperatura-de-alimentos?e=2e2b625246">Boletín Semenal UN</a>
+  <a href="calendario" data-toggle="modal" data-target="#myModal">Programación</a>
+  <a href="http://mailchi.mp/f2a3383f5ee6/prototipo-mide-color-y-temperatura-de-alimentos?e=2e2b625246">Boletín Semanal UN</a>
   <a href="#" onclick="javascript:recargar()">Áreas</a>
   <a href="https://www.facebook.com/pg/BUNPalmira/photos/">En Imágenes</a>
   <a href="#">Facebook</a>

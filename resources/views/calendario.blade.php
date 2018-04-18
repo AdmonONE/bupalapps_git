@@ -129,12 +129,17 @@ eventClick: function(event, jsEvent, view) {
     
 </div>
 
-<iframe style="" src="https://calendar.google.com/calendar/embed?src=sibu_pal%40unal.edu.co&ctz=America/Bogota" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+<iframe style="" src="https://calendar.google.com/calendar/embed?src=sibu_pal%40unal.edu.co&ctz=America/Bogota" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 
 
-<iframe src="https://calendar.google.com/calendar/embed?src=unal.edu.co_evcbno982j3gdq719ddu15ee70%40group.calendar.google.com&ctz=America/Bogota" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=unal.edu.co_evcbno982j3gdq719ddu15ee70%40group.calendar.google.com&ctz=America/Bogota" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+
+<iframe src="https://calendar.google.com/calendar/embed?src=unal.edu.co_fi5hub509edfs1u2nk3sdvf7ro%40group.calendar.google.com&ctz=America%2FBogota" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 	</div>
+
+
+
 
 
 
