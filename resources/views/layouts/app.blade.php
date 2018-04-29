@@ -520,6 +520,10 @@
     <script src="{{ asset('public/fullcalendar/lib/moment.min.js') }}"></script>
     <script src="{{ asset('public/fullcalendar/fullcalendar.min.js') }}"></script>
 
+        <script type="text/javascript" src="../slidermodulos/engine1/wowslider.js"></script>
+    <script type="text/javascript" src="../slidermodulos/engine1/script.js"></script>
+    <!-- End WOWSlider.com BODY section -->
+
     <script>
     
 
