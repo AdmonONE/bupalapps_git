@@ -200,7 +200,7 @@
 
         </ul>
     </div>
-    <header id="unalTop">
+    <header id="unalTop" style="z-index: 100;">
         <div class="logo">
             <a href="http://unal.edu.co">
                 <!--[if (gte IE 9)|!(IE)]><!-->
@@ -520,8 +520,8 @@
     <script src="{{ asset('public/fullcalendar/lib/moment.min.js') }}"></script>
     <script src="{{ asset('public/fullcalendar/fullcalendar.min.js') }}"></script>
 
-        <script type="text/javascript" src="../slidermodulos/engine1/wowslider.js"></script>
-    <script type="text/javascript" src="../slidermodulos/engine1/script.js"></script>
+    <script type="text/javascript" src="/slider_principal/engine1/wowslider.js"></script>
+    <script type="text/javascript" src="/slider_principal/engine1/script.js"></script>
     <!-- End WOWSlider.com BODY section -->
 
     <script>

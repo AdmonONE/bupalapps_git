@@ -62,3 +62,7 @@ Route::group(['middleware' => ['web']], function(){
 
 Route::resource('/registrar','RegistrarController');
 Route::get('api/v1/registros','RegistrarController@getRegistrar');
+
+Route::get('/encuestapp', function () {
+    return view('encuestapp.index');
+});

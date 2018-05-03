@@ -2,7 +2,7 @@
 
 @section('content')
 
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page
 	<link rel="stylesheet" type="text/css" href="../slidermodulos/engine1/style.css" />
 	<script type="text/javascript" src="../slidermodulos/engine1/jquery.js"></script>
 	<!-- End WOWSlider.com HEAD section -->
@@ -13,9 +13,14 @@
 	<script type="text/javascript" src="public/../slidermodulos/engine1/jquery.js"></script>
 	<!-- End WOWSlider.com HEAD section -->
 
+		<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="/slider_principal/engine1/style.css" />
+	<script type="text/javascript" src="/slider_principal/engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
   <!--  wrapper -->
-  <div class="row" style=" margin-top: 15%;">
-  	<div class="col-md-3" style="margin-left: -10%; float: left; visibility: ; border-style: solid; border-color: blue; z-index: -1;">
+  <div class="row" style=" margin-top: 12%;">
+  	<div class="col-md-3" style="margin-left: -10%; visibility: ; border-style: solid; border-color: blue; z-index: -1;">
   	<!--<input type="submit" class="btn btn-primary" name="">-->
   		<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
 
@@ -55,12 +60,12 @@
     * Array con las imagenes que se iran mostrando en la web
     */
     var imagenes=new Array(
-        'http://localhost:8000/slidermodulos/data1/images/29388775_580617102290251_4540866225374232576_n.png',
-        'http://localhost:8000/slidermodulos/data1/images/29388911_580616922290269_6843070181812469760_n.png',
-        'http://localhost:8000/slidermodulos/data1/images/29389186_580617278956900_5379133448009023488_n.png',
-        'http://localhost:8000/slidermodulos/data1/images/29425063_580617242290237_4447956934481412096_n.png',
-        'http://localhost:8000/slidermodulos/data1/images/29425186_580617072290254_3270598105342410752_n.png',
-        'http://localhost:8000/slidermodulos/data1/images/29425529_580617228956905_7017899192123129856_n.png'
+        'http://localhost:8000/slidermodulos/data1/images/modulover1.png',
+        'http://localhost:8000/slidermodulos/data1/images/modulover2.png',
+        'http://localhost:8000/slidermodulos/data1/images/modulover3.png',
+        'http://localhost:8000/slidermodulos/data1/images/modulover4.png',
+        'http://localhost:8000/slidermodulos/data1/images/modulover5.png',
+        'http://localhost:8000/slidermodulos/data1/images/modulover6.png'
         
     );
 
@@ -94,8 +99,8 @@
 </script>
 
 
-     <!-- <div id="imagendiv">
-    <img src="" id="imagen">
+     <div id="imagendiv">
+    <img src="" id="imagen" style="width: 82%; margin-top: 5px;">
 
     <!--<video src="" id="imagen" autoplay="true" muted></video>
 
@@ -103,10 +108,38 @@
 
 
   	</div>
-  <div class="" style="">
-    <!--<iframe src="public/comslider_1440615/comslider1440615.html" style="width: 700px; height: 600px; overflow: hidden;"></iframe>-->
-    <div class="embed" style="margin-left: 15%; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-<iframe src="/comslider_1563449/comslider1563449.html" style="width: 1000px; height: 500px; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+
+  </div>
+  <div class="col-md-9" style="">
+    <!--<iframe src="/slider_principal/index.html" style="width: 700px; height: 600px; overflow: hidden;"></iframe>-->
+    <div class="embed" style=" margin-left: 0%;  width: 112%; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<!--<iframe src="/comslider_1563449/comslider1563449.html" style="width: 1000px; height: 500px; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>-->
+
+
+
+
+
+
+
+	
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container1" style="">
+	<div class="ws_images"><ul>
+		<li><img src="/slider_principal/data1/images/dsc_0057.jpg" alt="DSC_0057" title="DSC_0057" id="wows1_0"/></li>
+		<li><img src="/slider_principal/data1/images/12p.png" alt="12p" title="12p" id="wows1_1"/></li>
+		<li><img src="/slider_principal/data1/images/dsc_7374.jpg" alt="DSC_7374" title="DSC_7374" id="wows1_2"/></li>
+		<li><img src="/slider_principal/data1/images/4p.png" alt="4p" title="4p" id="wows1_3"/></li>
+		<li><img src="/slider_principal/data1/images/dsc_0153.jpg" alt="DSC_0153" title="DSC_0153" id="wows1_4"/></li>
+		<li><img src="/slider_principal/data1/images/9p.png" alt="9p" title="9p" id="wows1_5"/></li>
+		<li><img src="/slider_principal/data1/images/dsc_5542.jpg" alt="DSC_5542" title="DSC_5542" id="wows1_6"/></li>
+		<li><img src="/slider_principal/data1/images/6p.png" alt="6p" title="6p" id="wows1_7"/></li>
+		<li><a href="http://wowslider.net"><img src="/slider_principal/data1/images/dsc_0264.jpg" alt="html5 slideshow" title="DSC_0264" id="wows1_8"/></a></li>
+		<li><img src="/slider_principal/data1/images/conjunciones.png" alt="Conjunciones" title="Conjunciones" id="wows1_9"/></li>
+	</ul></div>
+
+	<div class="ws_shadow"></div>
+	</div>	
+
 
 </div>
 
