@@ -66,3 +66,14 @@ Route::get('api/v1/registros','RegistrarController@getRegistrar');
 Route::get('/encuestapp', function () {
     return view('encuestapp.index');
 });
+
+
+
+
+Route::resource('/informeods','InformeodsController');
+Route::get('api/v1/informes','InformeodsController@getInformeODS');
+
+
+
+Route::get('/', 'ProductController@index')->name('products');
+Route::get('descargar-informe', 'InformeodsController@pdf')->name('informe.pdf');

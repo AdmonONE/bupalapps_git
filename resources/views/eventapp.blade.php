@@ -60,12 +60,14 @@
     * Array con las imagenes que se iran mostrando en la web
     */
     var imagenes=new Array(
-        'http://localhost:8000/slidermodulos/data1/images/modulover1.png',
-        'http://localhost:8000/slidermodulos/data1/images/modulover2.png',
-        'http://localhost:8000/slidermodulos/data1/images/modulover3.png',
-        'http://localhost:8000/slidermodulos/data1/images/modulover4.png',
-        'http://localhost:8000/slidermodulos/data1/images/modulover5.png',
-        'http://localhost:8000/slidermodulos/data1/images/modulover6.png'
+        'http://localhost:8000/slidermodulos/data1/images/1modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/2modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/3modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/4modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/5modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/6modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/7modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/8modulo.png'
         
     );
 
@@ -92,7 +94,7 @@
         rotarImagenes();
  
         // Indicamos que cada 5 segundos cambie la imagen
-        setInterval(rotarImagenes,10000);
+        setInterval(rotarImagenes,30000);
     }
 
 

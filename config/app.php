@@ -185,6 +185,10 @@ return [
 
         //maps
         //GeneaLabs\Phpgmaps\PhpgmapsServiceProvider::class,
+        
+
+        //PDF
+        Barryvdh\DomPDF\ServiceProvider::class,
 
     ],
 
@@ -244,6 +248,10 @@ return [
 
         //maps
         //'Gmaps' => GeneaLabs\Phpgmaps\Facades\PhpgmapsFacade::class,
+
+
+        //PDF
+        'PDF' => Barryvdh\DomPDF\Facade::class,
 
     ],
 
