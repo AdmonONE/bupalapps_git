@@ -112,7 +112,11 @@
 
   	</div>-->
 
-  	<div id="comslider_in_point_1581418" style="z-index: 1000;"></div><script type="text/javascript">var oCOMScript1581418=document.createElement('script');oCOMScript1581418.src="https://commondatastorage.googleapis.com/comslider/target/users/1525846464xf3831dc0cd4800acf5259d6497f5581b/comslider.js?timestamp=1525848369&ct="+Date.now();oCOMScript1581418.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1581418);</script>
+  	<div id="comslider_in_point_1581418"></div><script type="text/javascript">var oCOMScript1581418=document.createElement('script');oCOMScript1581418.src="https://commondatastorage.googleapis.com/comslider/target/users/1525846464xf3831dc0cd4800acf5259d6497f5581b/comslider.js?timestamp=1525848369&ct="+Date.now();oCOMScript1581418.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1581418);</script>
+  	<br>
+
+  	<div id="comslider_in_point_1581466"></div><script type="text/javascript">var oCOMScript1581466=document.createElement('script');oCOMScript1581466.src="https://commondatastorage.googleapis.com/comslider/target/users/1525853395x7c84bf86564a7ac0d19443e4f2bcbf5f/comslider.js?timestamp=1525854032&ct="+Date.now();oCOMScript1581466.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1581466);</script>
+
 
 
   </div>
