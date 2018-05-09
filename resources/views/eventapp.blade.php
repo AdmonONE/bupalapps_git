@@ -60,16 +60,17 @@
     * Array con las imagenes que se iran mostrando en la web
     */
     var imagenes=new Array(
-        'http://localhost:8000/slidermodulos/data1/images/1modulo.png',
-        'http://localhost:8000/slidermodulos/data1/images/2modulo.png',
-        'http://localhost:8000/slidermodulos/data1/images/3modulo.png',
-        'http://localhost:8000/slidermodulos/data1/images/4modulo.png',
-        'http://localhost:8000/slidermodulos/data1/images/5modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/concursoortografia.png',
+        'http://localhost:8000/slidermodulos/data1/images/mensajeprofe.png',
+        'http://localhost:8000/slidermodulos/data1/images/unalfest.jpg',
+        'http://localhost:8000/slidermodulos/data1/images/festivalporlavida1.jpg'
+        /*'http://localhost:8000/slidermodulos/data1/images/5modulo.png',
         'http://localhost:8000/slidermodulos/data1/images/6modulo.png',
         'http://localhost:8000/slidermodulos/data1/images/7modulo.png',
-        'http://localhost:8000/slidermodulos/data1/images/8modulo.png'
+        'http://localhost:8000/slidermodulos/data1/images/8modulo.png'*/
         
     );
+
 
 
  
@@ -101,15 +102,18 @@
 </script>
 
 
-     <div id="imagendiv">
-    <img src="" id="imagen" style="width: 82%; margin-top: 5px;">
+    <!-- <div id="imagendiv">
+    <img src="" id="imagen" style="width: 100%; margin-top: 5px;">
 
-    <!--<video src="" id="imagen" autoplay="true" muted></video>
+    <video src="" id="imagen" autoplay="true" muted></video>
 
-      </div>-->
+      </div>
 
 
-  	</div>
+  	</div>-->
+
+  	<div id="comslider_in_point_1581418" style="z-index: 1000;"></div><script type="text/javascript">var oCOMScript1581418=document.createElement('script');oCOMScript1581418.src="https://commondatastorage.googleapis.com/comslider/target/users/1525846464xf3831dc0cd4800acf5259d6497f5581b/comslider.js?timestamp=1525848369&ct="+Date.now();oCOMScript1581418.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1581418);</script>
+
 
   </div>
   <div class="col-md-9" style="">
