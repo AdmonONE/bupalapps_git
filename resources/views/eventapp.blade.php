@@ -60,14 +60,14 @@
     * Array con las imagenes que se iran mostrando en la web
     */
     var imagenes=new Array(
-        'http://localhost:8000/slidermodulos/data1/images/concursoortografia.png',
-        'http://localhost:8000/slidermodulos/data1/images/mensajeprofe.png',
-        'http://localhost:8000/slidermodulos/data1/images/unalfest.jpg',
-        'http://localhost:8000/slidermodulos/data1/images/festivalporlavida1.jpg'
-        /*'http://localhost:8000/slidermodulos/data1/images/5modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/1modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/2modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/3modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/4modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/5modulo.png',
         'http://localhost:8000/slidermodulos/data1/images/6modulo.png',
         'http://localhost:8000/slidermodulos/data1/images/7modulo.png',
-        'http://localhost:8000/slidermodulos/data1/images/8modulo.png'*/
+        'http://localhost:8000/slidermodulos/data1/images/8modulo.png'
         
     );
 
@@ -102,26 +102,27 @@
 </script>
 
 
-    <!-- <div id="imagendiv">
-    <img src="" id="imagen" style="width: 100%; margin-top: 5px;">
+    <div id="imagendiv">
+    <img src="" id="imagen" style="width: 100%; margin-top:;">
 
-    <video src="" id="imagen" autoplay="true" muted></video>
+   <!--  <video src="" id="imagen" autoplay="true" muted></video>
 
-      </div>
+      </div>-->
 
 
-  	</div>-->
+  </div>
 
-  	<div id="comslider_in_point_1581418"></div><script type="text/javascript">var oCOMScript1581418=document.createElement('script');oCOMScript1581418.src="https://commondatastorage.googleapis.com/comslider/target/users/1525846464xf3831dc0cd4800acf5259d6497f5581b/comslider.js?timestamp=1525848369&ct="+Date.now();oCOMScript1581418.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1581418);</script>
-  	<br>
 
-  	<div id="comslider_in_point_1581466"></div><script type="text/javascript">var oCOMScript1581466=document.createElement('script');oCOMScript1581466.src="https://commondatastorage.googleapis.com/comslider/target/users/1525853395x7c84bf86564a7ac0d19443e4f2bcbf5f/comslider.js?timestamp=1525854032&ct="+Date.now();oCOMScript1581466.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1581466);</script>
+
+  
 
 
 
   </div>
   <div class="col-md-9" style="">
-    <!--<iframe src="/slider_principal/index.html" style="width: 700px; height: 600px; overflow: hidden;"></iframe>-->
+
+  		<div id="comslider_in_point_1581466"></div><script type="text/javascript">var oCOMScript1581466=document.createElement('script');oCOMScript1581466.src="https://commondatastorage.googleapis.com/comslider/target/users/1525853395x7c84bf86564a7ac0d19443e4f2bcbf5f/comslider.js?timestamp=1525854032&ct="+Date.now();oCOMScript1581466.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1581466);</script>
+    <!--<iframe src="/slider_principal/index.html" style="width: 700px; height: 600px; overflow: hidden;"></iframe>
     <div class="embed" style=" margin-left: 0%;  width: 112%; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 <!--<iframe src="/comslider_1563449/comslider1563449.html" style="width: 1000px; height: 500px; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>-->
 
@@ -132,7 +133,7 @@
 
 
 	
-	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page 
 	<div id="wowslider-container1" style="">
 	<div class="ws_images"><ul>
 		<li><img src="/slider_principal/data1/images/dsc_0057.jpg" alt="DSC_0057" title="DSC_0057" id="wows1_0"/></li>
@@ -148,7 +149,7 @@
 	</ul></div>
 
 	<div class="ws_shadow"></div>
-	</div>	
+	</div>	-->
 
 
 </div>
