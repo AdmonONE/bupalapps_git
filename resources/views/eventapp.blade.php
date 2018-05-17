@@ -23,7 +23,7 @@
   	<div class="col-md-3" style="margin-left: -10%; visibility: ; border-style: solid; border-color: blue; z-index: -1;">
 
 
-  		<div id="comslider_in_point_1587357"></div><script type="text/javascript">var oCOMScript1587357=document.createElement('script');oCOMScript1587357.src="https://commondatastorage.googleapis.com/comslider/target/users/1526488370xd7033e139d3fa726b072602f6412fa6d/comslider.js?timestamp=1526488684&ct="+Date.now();oCOMScript1587357.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1587357);</script>
+  		<div id="comslider_in_point_1587357"  style="width: 110%;"></div><script type="text/javascript">var oCOMScript1587357=document.createElement('script');oCOMScript1587357.src="https://commondatastorage.googleapis.com/comslider/target/users/1526488370xd7033e139d3fa726b072602f6412fa6d/comslider.js?timestamp=1526488684&ct="+Date.now();oCOMScript1587357.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1587357);</script>
 
   	<!--<input type="submit" class="btn btn-primary" name="">-->
   		<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
@@ -105,7 +105,7 @@
         rotarImagenes();
  
         // Indicamos que cada 5 segundos cambie la imagen
-        setInterval(rotarImagenes,30000);
+        setInterval(rotarImagenes,38000);
     }
 
 
@@ -128,7 +128,7 @@
 
 
   		<!--Slider Principal desde comslider-->
-  		<!--<div id="comslider_in_point_1581466"></div><script type="text/javascript">var oCOMScript1581466=document.createElement('script');oCOMScript1581466.src="https://commondatastorage.googleapis.com/comslider/target/users/1525853395x7c84bf86564a7ac0d19443e4f2bcbf5f/comslider.js?timestamp=1525854032&ct="+Date.now();oCOMScript1581466.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1581466);</script>-->
+  		<div id="comslider_in_point_1581466" style="margin-left: 10%;"></div><script type="text/javascript">var oCOMScript1581466=document.createElement('script');oCOMScript1581466.src="https://commondatastorage.googleapis.com/comslider/target/users/1525853395x7c84bf86564a7ac0d19443e4f2bcbf5f/comslider.js?timestamp=1525854032&ct="+Date.now();oCOMScript1581466.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1581466);</script>
 
 
 
@@ -140,7 +140,7 @@
     <div id="imagendiv">
     <!--<img src="" id="imagen" style="width: 100%; margin-top:;">-->
 
-   <video src="" id="imagen" autoplay="true" style="width: 110%;" ></video>
+   <!--<video src="" id="imagen" autoplay="true" style="width: 110%;" ></video>-->
 
       </div>
 
@@ -167,6 +167,7 @@
 	</div>	-->
 
 
+
 </div>
 
 
@@ -176,7 +177,7 @@
 
 
 
-<!--<div id="comslider_in_point_1563449"></div><script type="text/javascript">var oCOMScript1563449=document.createElement('script');oCOMScript1563449.src="https://commondatastorage.googleapis.com/comslider/target/users/1524032383x19dff88032a730b80bcd8414d24ff93b/comslider.js?timestamp=1524034752&ct="+Date.now();oCOMScript1563449.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1563449);</script>-->
+
 
 
 
