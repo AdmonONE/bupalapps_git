@@ -23,7 +23,8 @@
   	<div class="col-md-3" style="margin-left: -10%; visibility: ; border-style: solid; border-color: blue; z-index: -1;">
 
 
-  		<div id="comslider_in_point_1587357"  style="width: 110%;"></div><script type="text/javascript">var oCOMScript1587357=document.createElement('script');oCOMScript1587357.src="https://commondatastorage.googleapis.com/comslider/target/users/1526488370xd7033e139d3fa726b072602f6412fa6d/comslider.js?timestamp=1526488684&ct="+Date.now();oCOMScript1587357.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1587357);</script>
+  			<!--Slider Izquierdo Pequeño Arriba-->
+  		<!--<div id="comslider_in_point_1587357"  style="width: 110%;"></div><script type="text/javascript">var oCOMScript1587357=document.createElement('script');oCOMScript1587357.src="https://commondatastorage.googleapis.com/comslider/target/users/1526488370xd7033e139d3fa726b072602f6412fa6d/comslider.js?timestamp=1526488684&ct="+Date.now();oCOMScript1587357.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1587357);</script>-->
 
   	<!--<input type="submit" class="btn btn-primary" name="">-->
   		<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
@@ -64,20 +65,20 @@
     * Array con las imagenes que se iran mostrando en la web
     */
     var imagenes=new Array(
-        /*'http://localhost:8000/slidermodulos/data1/images/1modulo.png',
+        'http://localhost:8000/slidermodulos/data1/images/1modulo.png',
         'http://localhost:8000/slidermodulos/data1/images/2modulo.png',
         'http://localhost:8000/slidermodulos/data1/images/3modulo.png',
         'http://localhost:8000/slidermodulos/data1/images/4modulo.png',
         'http://localhost:8000/slidermodulos/data1/images/5modulo.png',
         'http://localhost:8000/slidermodulos/data1/images/6modulo.png',
         'http://localhost:8000/slidermodulos/data1/images/7modulo.png',
-        'http://localhost:8000/slidermodulos/data1/images/8modulo.png'*/
+        'http://localhost:8000/slidermodulos/data1/images/8modulo.png'
 
 
-        'http://localhost:8000/slider_principal/data1/videos/calisteniahombres7.mp4',
+       /* 'http://localhost:8000/slider_principal/data1/videos/calisteniahombres7.mp4',
         'http://localhost:8000/slider_principal/data1/videos/calisteniamujeres7.mp4',
         'http://localhost:8000/slider_principal/data1/videos/ortografia7.mp4',
-        'http://localhost:8000/slider_principal/data1/videos/pintandoando7.mp4'
+        'http://localhost:8000/slider_principal/data1/videos/pintandoando7.mp4'*/
         
     );
 
@@ -111,8 +112,15 @@
 
 </script>
 
+		<!--Div Vertical Izquierdo Full-->
+    <div id="imagendiv">
+    <img src="" id="imagen" style="width: 100%; margin-top:;">
 
+   <!--<video src="" id="imagen" autoplay="true" style="width: 110%;" ></video>-->
 
+      </div>
+
+     
 
 
   </div>
@@ -127,8 +135,12 @@
   <div class="col-md-9" style="">
 
 
-  		<!--Slider Principal desde comslider-->
-  		<div id="comslider_in_point_1581466" style="margin-left: 10%;"></div><script type="text/javascript">var oCOMScript1581466=document.createElement('script');oCOMScript1581466.src="https://commondatastorage.googleapis.com/comslider/target/users/1525853395x7c84bf86564a7ac0d19443e4f2bcbf5f/comslider.js?timestamp=1525854032&ct="+Date.now();oCOMScript1581466.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1581466);</script>
+  		<!--Slider Principal desde comslider
+  		<div id="comslider_in_point_1581466" style="margin-left: 13%;"></div><script type="text/javascript">var oCOMScript1581466=document.createElement('script');oCOMScript1581466.src="https://commondatastorage.googleapis.com/comslider/target/users/1525853395x7c84bf86564a7ac0d19443e4f2bcbf5f/comslider.js?timestamp=1525854032&ct="+Date.now();oCOMScript1581466.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1581466);</script>-->
+
+
+
+  		<iframe src="http://localhost:8000/wowslider-iframe.html" style="margin-left: 13%; width: 100%; height: 675px;"></iframe>
 
 
 
@@ -137,12 +149,7 @@
 <!--<iframe src="/comslider_1563449/comslider1563449.html" style="width: 1000px; height: 500px; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>-->
 
 
-    <div id="imagendiv">
-    <!--<img src="" id="imagen" style="width: 100%; margin-top:;">-->
 
-   <!--<video src="" id="imagen" autoplay="true" style="width: 110%;" ></video>-->
-
-      </div>
 
 
 

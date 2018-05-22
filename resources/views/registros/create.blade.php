@@ -228,7 +228,7 @@ function now($format, $language = "es") {
 </form>
 </div>
 
-<div class="col-md-8" style="height: 436px; font-size: 30pX; line-height: 30px; text-align: center; font-weight: bold; display: flex; justify-content: center; align-content: center; flex-direction: column;">
+<div class="col-md-8" style="line-height: 30px; text-align: center; font-weight: bold; display: flex; justify-content: center; align-content: center; flex-direction: column;">
 
 <div style="padding: 10px; background: rgba(255, 255, 255, 0.5); border-radius: 10px;">
 
